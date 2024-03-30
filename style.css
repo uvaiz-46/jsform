@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('https://cdn.dribbble.com/users/1100256/screenshots/7124464/media/94a5e074f80ae9466705cf4c833c3432.gif') no-repeat ;
+    background-size: cover;
+}
+.lom {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#jom {
+    padding: 2rem;
+    border: 1px solid black;
+    border: none;
+    backdrop-filter:  blur(20px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    width: 40%;
+    height: 64vh;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    color: black;
+
+}
+
+.form-floating {
+    border-radius: 50px;
+
+}
+
+.page button {
+    padding: 9px 19px;
+    margin-top: 30px;
+}
+
+.page button a {
+    text-decoration: none;
+
+}
